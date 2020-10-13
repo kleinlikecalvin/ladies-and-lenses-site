@@ -1,5 +1,8 @@
+body {
+  background: black;
+}
 nav {
-  background-image: url("https://www.adelphipaperhangings.com/wp-content/uploads/2018/12/PineapplesA-1024x1024.jpg");
+  background: #fff;
   position: fixed;
   min-width: 290px;
   top: 0px;
@@ -8,16 +11,12 @@ nav {
   height: 100%;
   border-right: solid #222b19;
 }
-header {
-  background-color: #d0dbda;
-  color: black;
-  margin: 10px;
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: thin;
-  border-radius: 10px;
+nav header img {
+  max-width: 300px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
-#nav-ul {
+nav ul {
   height: 88%;
   padding: 0;
   overflow-y: auto;
@@ -38,4 +37,10 @@ header {
   border-radius: 4px;
   margin: 2%;
   box-shadow: 2px 2px 2px 2px grey;
+}
+#photo-container {
+  margin-left: 300px;
+}
+#photo-item {
+  max-height: 100vh;
 }
