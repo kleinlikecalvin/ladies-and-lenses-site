@@ -38,9 +38,19 @@ nav ul {
   margin: 2%;
   box-shadow: 2px 2px 2px 2px grey;
 }
+.container-fluid {
+  max-width: 700px;
+}
 #photo-container {
   margin-left: 300px;
 }
 #photo-item {
-  max-height: 100vh;
+  max-width: 50em;
+  padding: 2em;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
 }
