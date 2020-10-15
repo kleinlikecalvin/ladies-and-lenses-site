@@ -18,7 +18,7 @@ nav header img {
 }
 nav ul {
   height: 88%;
-  padding: 0;
+  padding: 0px;
   overflow-y: auto;
   overflow-x: hidden;
   color: #4d4e53;
@@ -31,26 +31,10 @@ nav ul {
   background-color: #d0dbda;
   display: block;
   padding: 10px 10px;
-  color: #4d4e53;
+  color: #212121;
   text-decoration: none;
   cursor: pointer;
   border-radius: 4px;
-  margin: 2%;
-  box-shadow: 2px 2px 2px 2px grey;
-}
-.container-fluid {
-  max-width: 700px;
-}
-#photo-container {
-  margin-left: 300px;
-}
-#photo-item {
-  max-width: 50em;
-  padding: 2em;
-}
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
+  margin: 5%;
+  box-shadow: 2px 2px 2px 2px #515151;
 }
