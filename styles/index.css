@@ -47,9 +47,8 @@ nav ul {
 }
 .container {
   max-width: 1129px;
-  max-height: 100vh;
-  padding: 2em;
   margin-left: 296px;
+  padding: 2em;
   border-left: 4px solid rgb(73, 73, 73);
 }
 #black-container {
@@ -62,6 +61,7 @@ nav ul {
   font-weight: 900;
   font-size: 7.5em;
   line-height: 1.5em;
+  text-transform: uppercase;
 }
 #photo-item-black {
   max-width: 20em;
@@ -74,4 +74,7 @@ nav ul {
   padding: 1em;
   margin: 0.3em;
   border: 3px solid #000;
+}
+#photo-item-container a:hover {
+  opacity: 10%;
 }
