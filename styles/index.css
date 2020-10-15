@@ -27,13 +27,19 @@ nav ul {
 }
 .nav-link {
   text-align: center;
-  background-color: #d0dbda;
   display: block;
   padding: 10px 10px;
-  color: #212121;
+  color: #000000;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 4px;
   margin: 5%;
-  box-shadow: 2px 2px 2px 2px #515151;
+}
+.nav-link:hover {
+  text-align: center;
+  display: block;
+  padding: 10px 10px;
+  color: #5a1733;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 5%;
 }
