@@ -1,5 +1,6 @@
 body {
-  background: black;
+  background: white;
+  font-family: "Montserrat", sans-serif;
 }
 nav {
   background: #fff;
@@ -7,12 +8,11 @@ nav {
   min-width: 290px;
   top: 0px;
   left: 0px;
-  width: 300px;
+  width: 20%;
   height: 100%;
-  border-right: solid #222b19;
 }
 nav header img {
-  max-width: 300px;
+  max-width: 290px;
   padding-top: 1em;
 }
 nav ul {
@@ -33,13 +33,45 @@ nav ul {
   text-decoration: none;
   cursor: pointer;
   margin: 5%;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 .nav-link:hover {
   text-align: center;
   display: block;
   padding: 10px 10px;
-  color: #5a1733;
+  color: rgb(216, 194, 0);
   text-decoration: none;
   cursor: pointer;
   margin: 5%;
+}
+.container {
+  max-width: 1129px;
+  max-height: 100vh;
+  padding: 2em;
+  margin-left: 296px;
+  border-left: 4px solid rgb(73, 73, 73);
+}
+#black-container {
+  background: #000;
+}
+#white-container {
+  background: #fff;
+}
+#style-title {
+  font-weight: 900;
+  font-size: 7.5em;
+  line-height: 1.5em;
+}
+#photo-item-black {
+  max-width: 20em;
+  padding: 1em;
+  margin: 0.3em;
+  border: 3px solid #fff;
+}
+#photo-item-white {
+  max-width: 20em;
+  padding: 1em;
+  margin: 0.3em;
+  border: 3px solid #000;
 }
