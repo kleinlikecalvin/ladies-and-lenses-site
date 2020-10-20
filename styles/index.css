@@ -87,3 +87,6 @@ nav ul {
 #photo-item-container a:hover {
   opacity: 60%;
 }
+#about-container {
+  height: 100vh;
+}
