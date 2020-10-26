@@ -2,6 +2,7 @@ body {
   background: white;
   font-family: "Montserrat", sans-serif;
 }
+/*NAVBAR STYLING BEGINS*/
 nav {
   background: #fff;
   position: fixed;
@@ -45,6 +46,8 @@ nav ul {
   cursor: pointer;
   margin: 5%;
 }
+/*NAVBAR STYLING ENDS*/
+/*LANDING PAGE STYLING BEGINS*/
 .container {
   max-width: 1129px;
   margin-left: 296px;
@@ -87,6 +90,89 @@ nav ul {
 #photo-item-container a:hover {
   opacity: 60%;
 }
+/*LANDING PAGE STYLING ENDS*/
+/*ABOUT PAGE STYLING BEGINS*/
 #about-container {
   height: 100vh;
+}
+/*ABOUT PAGE STYLING ENDS*/
+/*FAQ PAGE STYLING BEGINS*/
+#faq-container {
+  height: 100vh;
+  margin-left: 296px;
+  padding: 2em;
+  padding-top: 4em;
+  border-left: 4px solid #212529;
+}
+.faq button {
+  margin: 1em;
+  padding: 1em;
+  font-size: 110%;
+  font-weight: bold;
+  border-radius: 3px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+}
+
+.faq .answer-container {
+  margin: 0;
+  padding: 0;
+  margin-left: 3em;
+}
+
+.faq .answer {
+  margin: 0;
+  padding: 0.5em;
+  padding-left: 2em;
+  font-size: 110%;
+  border-radius: 3px;
+  display: none;
+  background-image: linear-gradient(to right, #fff388 0%, #fffffa 100%);
+  border-left: 4px solid #d8c200;
+}
+.answer-container iframe {
+  display: block;
+  margin: 0 auto;
+  width: 40em;
+  height: 25em;
+}
+.faq button:hover,
+.faq button:focus {
+  border-bottom: 4px solid #d8c200;
+}
+
+.faq button[aria-expanded="false"]::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f059";
+  color: #d8c200;
+  padding-right: 0.35em;
+}
+
+.faq button[aria-expanded="true"]::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  color: #d8c200;
+  padding-right: 0.35em;
+}
+/*FAQ PAGE STYLING ENDS*/
+
+@media (max-width: 576px) and (max-width: 767.98px) {
+  .answer-container iframe {
+    display: block;
+    margin: 0 auto;
+    width: 24em;
+    height: 20em;
+  }
+  .faq button {
+    margin-left: 0;
+  }
+  .faq .answer {
+    margin-right: 1em;
+  }
+
+  .answer-container iframe {
+    width: 20em;
+    height: 15em;
+  }
 }
